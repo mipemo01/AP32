@@ -3,8 +3,8 @@ grep -i 'agujero' anillo.txt
 grep -w 'anillo' anillo.txt
 grep -ivn 'anillo' anillo.txt
 grep '^Frodo' anillo.txt
-grep 'Mordor$' anillo.txt
-grep 'fue.que' anillo.txt
+grep 'Mordor.$' anillo.txt
+grep 'f.*ue' anillo.txt
 grep -B 2 -w 'elfo' anillo.txt
 grep -i -A 1 'compañía' anillo.txt
-grep -i 'Gandalf.Gris|Gris.*Gandalf' anillo.txt
+grep -i 'Gandalf.*Gris|Gris.*Gandalf' anillo.txt
